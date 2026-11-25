@@ -13,7 +13,7 @@ while True :
     choice = input("Enter your choice: ")
 
     if choice == "1":
-        name = input("Enter your name")
+        name = input("Enter your name:")
         phone = input("Enter your phone number")
 
         contact[name] = phone
